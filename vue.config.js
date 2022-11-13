@@ -1,4 +1,6 @@
 module.exports = {
-  publicPath: '/iris/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/iris/'
+    : '/'
 }
 
