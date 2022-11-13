@@ -1,0 +1,16 @@
+.todo_item {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_image {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.reply_input { 
+    margin-bottom: 30px;
+
+}

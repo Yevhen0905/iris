@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+      <ToDoItem/>
   </div>
 </template>
+
+<script>
+import ToDoItem from '@/components/ToDoItem/ToDoItem.vue';
+
+export default {
+  components: {
+    ToDoItem
+  }
+}
+
+</script>
